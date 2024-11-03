@@ -3,16 +3,19 @@ Step 1: Data Import
 Save each sheet as a CSV file.
 
 Step 2: Data Cleaning and Exploration in MySQL
+
  -----Data Cleaning-----
--Remove Duplicates
--Handle Null or Missing Values: Check for NULL values in critical columns.
--Standardize Date Formats
--Correct Category Values
+ 
+1.Remove Duplicates
+2.Handle Null or Missing Values: Check for NULL values in critical columns.
+3.Standardize Date Formats
+4.Correct Category Values
+
 -----Data Exploration-----
--Get Sales Summary
--Identify Top-Selling Products
--Analyze Returns
--Customer Segmentation
+1.Get Sales Summary
+2.Identify Top-Selling Products
+3.Analyze Returns
+4.Customer Segmentation
 
 Step 3: Analyze and Visualize the Data
 Now that the data is in a Pandas DataFrame, we can use different libraries to explore and analyze it.
